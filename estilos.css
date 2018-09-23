@@ -1,0 +1,85 @@
+#paineis-sobre {
+    margin-top: 20px;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+header {
+    height: 100%;
+    background-image: url(img/castelo.jpg);
+    background-size: cover;
+    background-position: top center;
+    color: #fff;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.TopCasaFina-banner h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.TopCasaFina-banner {
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    width: 70%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: 0.3s;
+}
+
+.depoimentos-titulo {
+    background-color: #0275D8;
+    padding: 20px;
+    margin-bottom: 0;
+    color: #fff;
+    font-size: 25px;
+}
+
+#depoimentos {
+    margin-top: 20px;
+}
+
+.imagem-projetos{
+    padding-left: 0;
+    padding-right: 0;
+} 
+
+.grupo-radio,
+.contato-select {
+    width: 50%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+footer {
+    background-color: #333;
+    color: #FFF;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+footer address:last-child {
+    margin-bottom: 0px;
+}
+
+@media(min-width: 768px) {
+    .colunas-2 {
+        width: 50%;
+        float: left;
+    }
+    #paineis-sobre {
+        margin-top: 0;
+        width: 50%;
+    }
+}
+
+footer address:last-child {
+    margin-bottom: 0;
+}
